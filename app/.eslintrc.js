@@ -7,6 +7,9 @@ module.exports = {
       "exports": false,
     },
     "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
     "rules": {
         "accessor-pairs": "error",
         "array-callback-return": "error",
@@ -68,7 +71,6 @@ module.exports = {
         "max-params": "error",
         "new-cap": "error",
         "new-parens": "error",
-        "newline-per-chained-call": "error",
         "no-alert": "error",
         "no-array-constructor": "error",
         "no-bitwise": "error",
@@ -151,7 +153,6 @@ module.exports = {
         "operator-assignment": "error",
         "operator-linebreak": "error",
         "prefer-const": "error",
-        "prefer-reflect": "error",
         "prefer-spread": "error",
         "quotes": [
             "error",

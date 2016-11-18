@@ -6,7 +6,7 @@ exports.arraysAnswers = {
   },
 
   sum: function(arr) {
-    return arr.reduce(function (a, b) { return a + b; });
+    return arr.reduce((a, b) => a + b );
   },
 
   remove: function(arr, item) {
@@ -84,9 +84,7 @@ exports.arraysAnswers = {
   },
 
   square: function(arr) {
-    return arr.map(function(x) {
-      return x * x;
-    });
+    return arr.map((x) => x * x);
   },
 
   findAllOccurrences: function(arr, target) {
